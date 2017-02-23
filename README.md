@@ -66,3 +66,14 @@ class SomeClass {
 }
 ```
 ####The constructor will get called once when we try to access SomeClass.X or SomeClass.Y.
+
+####A static class can contain only static members. 
+####We cannot instantiate an object of a static class, as only one instance of the static class can exist in a program.
+Static classes are useful for combining logical properties and methods. A good example of this is the<b> Math class</b>.
+It contains various useful properties and methods for mathematical operations. 
+####For example, the Pow method raises a number to a power:
+```C#
+Console.WriteLine(Math.Pow(2, 3));
+//Outputs 8
+```
+#### We access all members of the Math class using the class name, without declaring an object.
